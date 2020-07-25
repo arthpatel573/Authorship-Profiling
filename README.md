@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 Run each `preprocess-ml.ipynb' notebook and generate 'training_data_dl.csv' and 'testing_data_dl'.
 
-Once they are produced, run each experiment for deep learning classification model on these files.
+Once they are produced, run each experiment for deep learning classification model (found in 'tensorflow-expts.ipynb') on these files.
 
 # Performance evaluation
 
