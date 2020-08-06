@@ -16,9 +16,15 @@ pip install -r requirements.txt
 
 # Experiments
 
-Run each `preprocess-ml.ipynb' notebook and generate 'training_data_dl.csv' and 'testing_data_dl'.
+Run each `preprocess-ml.ipynb' notebook and generate 'training_data_dl.csv' and 'testing_data_dl.csv'.
 
 Once they are produced, run each experiment for deep learning classification model (found in 'tensorflow-expts.ipynb') on these files.
+
+# Deploying the model
+
+The final version of the model can be run by running `./scripts/train.py` script.
+
+Then, follow the `./deploy.ipynb` file for the deploying this model on **AWS SageMaker**.
 
 # Performance evaluation
 
